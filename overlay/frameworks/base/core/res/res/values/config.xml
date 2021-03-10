@@ -184,7 +184,10 @@
 
     <!-- Screen brightness when dozing. -->
     <integer name="config_screenBrightnessDoze">17</integer>
-    <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
+    <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
+
+    <!-- Whether the display blanks itself when transitioning from a doze to a non-doze state -->
+    <bool name="config_displayBlanksAfterDoze">true</bool>
 
     <!-- ZenParts -->
     <string name="config_alternativeDeviceKeyHandlerLib" translatable="false">/system/priv-app/ZenfoneParts/ZenfoneParts.apk</string>
