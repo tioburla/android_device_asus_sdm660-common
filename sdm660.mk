@@ -5,7 +5,7 @@
 #
 
 # GoogleCameraGo
-$(call inherit-product, packages/apps/GoogleCameraGoEdition/GoogleCameraGoEdition.mk)
+#$(call inherit-product, packages/apps/GoogleCam/gcam.mk)
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/asus/sdm660-common/sdm660-common-vendor.mk)
